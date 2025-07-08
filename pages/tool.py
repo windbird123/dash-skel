@@ -23,7 +23,7 @@ def layout(param: str = "") -> html.Div:
                         name="param",
                         value=param,
                         placeholder="Enter tool name",
-                        debounce=True,
+                        debounce=True, # 사용자가 Enter 키를 누르거나, 입력 후 focus를 잃을 때(blur) 만 callback이 실행
                         style={"display": "inline-block", "width": "30%"},
                     ),
                     dbc.Button("보기", type="submit", color="primary", n_clicks=0),
