@@ -5,6 +5,7 @@
 * dash callback 을 사용하면 사용자 경험은 좋을지 몰라도, 개발자 경험은 좋지 않기 때문에 callback 을 최소한으로 사용
 * input component 에 debounce=True 적용  
   사용자가 Enter 키를 누르거나, 입력 후 focus를 잃을 때(blur) 만 callback이 실행
+* Dropdown 선택 value 는 Form submit 시 자동으로 URL param 으로 포함되지 않아 Hidden Input 을 활용해 전달
 
 ### client side callback
 * https://wefree.tistory.com/335
